@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <form id="addUserForm">
+        <input type="text" placeholder="Ad" name="nameInp">
+        <input type="number" placeholder="yaş" min="18" max="65" name="ageInp">
+        <input type="submit" value="Əlavə et">
+    </form>
+    <input type="search" placeholder="search" id="searchInp">
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Ad</th>
+                <th>Yaş</th>
+                <th>Hərəkətlər</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableBody"></tbody>
+    </table>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
